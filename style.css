@@ -4,6 +4,10 @@
   --title-color: #1e3226;
 }
 
+body {
+  background-color: #fef3e9;
+}
+
 .btn {
   border: 1px solid var(--button-color);
   border-radius: 40px;
@@ -67,4 +71,43 @@
 .dictionary-text:hover {
   color: black;
   text-decoration: underline;
+}
+
+.workation-image:hover,
+.weather-image:hover,
+.dictionary-text:hover {
+  transform: rotateY(180deg);
+}
+
+#home:hover,
+#abtme:hover,
+#contactme:hover {
+  color: var(--title-color);
+  font-weight: bolder;
+}
+
+@media (max-width: 820px) {
+  .current-projects,
+  .coming-soon {
+    margin: 4 auto;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .dictionary-text {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .hero {
+    height: 500px;
+  }
+
+  .workation-text,
+  .weather-text {
+    font-size: 20px;
+    text-align: center;
+  }
 }

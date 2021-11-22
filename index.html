@@ -43,7 +43,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#" id="navlink">BREE</a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler active"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavAltMarkup"
@@ -64,14 +64,14 @@
             >Home</a
           >
           <a
-            class="nav-item nav-link"
+            class="nav-item nav-link active"
             href="aboutme.html"
             title="About me"
             id="abtme"
             >About me</a
           >
           <a
-            class="nav-item nav-link"
+            class="nav-item nav-link active"
             href="aboutme.html#contactLink"
             title="Contact"
             id="contactme"
@@ -83,7 +83,11 @@
     </nav>
 
     <div class="hero">
-      <p>XXXX</p>
+      <p class="hello">
+        Hello,
+        <br />
+        This is Büşra 👩🏻‍💻
+      </p>
     </div>
 
     <button type="button" class="btn">ABOUT ME</button>
@@ -94,12 +98,18 @@
       <div class="row">
         <div class="col-6">
           <p>
-            <a href="http://" class="workation-text"> Workation Project </a>
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-basics-899083fe-2a67-4904-8efb-ff3f6a24a7ed/projects/435355"
+              class="workation-text"
+            >
+              Workation Project
+            </a>
           </p>
 
           <img
             src="images/workation.jpg"
             alt="workation-image"
+            id="workation-image"
             class="img-fluid"
             style="width: 80%"
           />
@@ -107,12 +117,18 @@
 
         <div class="col-6">
           <p>
-            <a href="http://" class="weather-text"> Weather App Project </a>
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-plus-d09df091-4c2f-4b53-afd0-e5a761571836/projects/549282"
+              class="weather-text"
+            >
+              Weather Project
+            </a>
           </p>
 
           <img
             src="images/weatherapp.jpg"
             alt="weather-image"
+            id="weather-image"
             class="img-fluid"
             style="max-width: 80%"
           />
@@ -132,16 +148,12 @@
           <img
             src="images/dictionary.jpg"
             alt="dictionary-image"
-            class="img-fluid mb-4"
-            style="height: 300px; width: 650px; max-width: 80px"
+            id="dictionary-image"
+            class="img-fluid mb-4 d-sm-block"
+            style="height: 300px; width: 650px; max-width: 80%"
           />
         </div>
       </div>
     </div>
-
-    <span>
-      <i class="fab fa-github"></i>
-      <i class="fas fa-envelope"></i>
-    </span>
   </body>
 </html>
