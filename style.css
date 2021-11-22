@@ -1,8 +1,14 @@
+:root {
+  --button-color: #eedbd4;
+  --button-text-color: #272142;
+  --title-color: #1e3226;
+}
+
 .btn {
-  border: 1px solid #eedbd4;
+  border: 1px solid var(--button-color);
   border-radius: 40px;
-  color: #272142;
-  background-color: #eedbd4;
+  color: var(--button-text-color);
+  background-color: var(--button-color);
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -10,27 +16,42 @@
   margin: 60px auto;
   padding: 16px 32px;
 }
-.current-projects {
+
+.btn:hover {
+  border: 1px solid var(--button-text-color);
+  color: var(--button-color);
+  background-color: var(--button-text-color);
+}
+
+.current-projects,
+.coming-soon {
   color: #1e3226;
   font-size: 32px;
   font-family: "Nunito", sans-serif;
   font-style: italic;
-  margin: 80px 60px;
+  margin: 60px 60px;
 }
 
 .hero {
   background-image: url(images/shelves.jpg);
   background-color: #cccccc;
-  height: 640px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin: 0 4px;
+  margin: 0 2px;
 }
 
 .hero p {
   padding: 420px 60px;
+}
+
+.dictionary-text {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  color: black;
 }
 
 .workation-text,
@@ -42,7 +63,8 @@
 }
 
 .workation-text:hover,
-.weather-text:hover {
+.weather-text:hover,
+.dictionary-text:hover {
   color: black;
   text-decoration: underline;
 }
