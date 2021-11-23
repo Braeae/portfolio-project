@@ -100,7 +100,7 @@ body {
 .workation-text:hover,
 .weather-text:hover,
 .dictionary-text:hover {
-  color: red;
+  color: black;
   text-decoration: underline;
 }
 
