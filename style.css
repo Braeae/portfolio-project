@@ -4,6 +4,27 @@
   --title-color: #1e3226;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a.linked-link,
+a.insta-link,
+a.git-link {
+  margin: 0 auto;
+  text-align: center;
+  color: darkgray;
+  font-size: 14px;
+  margin: 12px;
+}
+
+a.linked-link:hover,
+a.insta-link:hover,
+a.git-link:hover {
+  color: black;
+}
+
 body {
   background-color: #fef3e9;
 }
@@ -29,11 +50,18 @@ body {
 
 .current-projects,
 .coming-soon {
-  color: #1e3226;
+  color: var(--title-color);
   font-size: 32px;
   font-family: "Nunito", sans-serif;
   font-style: italic;
   margin: 60px 60px;
+}
+
+.dictionary-text {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  color: black;
 }
 
 .hero {
@@ -47,15 +75,16 @@ body {
   margin: 0 2px;
 }
 
-.hero p {
-  padding: 420px 60px;
+.hello {
+  padding: 420px 45px;
+  line-height: 1.4;
+  color: var(--title-color);
+  font-size: 36px;
+  font-family: "Nunito", sans-serif;
 }
 
-.dictionary-text {
-  text-decoration: none;
-  font-size: 24px;
-  font-family: "Nunito", sans-serif;
-  color: black;
+.icons {
+  text-align: center;
 }
 
 .workation-text,
@@ -99,6 +128,9 @@ body {
     text-align: center;
     margin: 0 auto;
     display: block;
+  }
+  .hello {
+    display: none;
   }
 
   .hero {
