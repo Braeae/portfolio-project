@@ -4,27 +4,6 @@
   --title-color: #1e3226;
 }
 
-a,
-a:visited {
-  text-decoration: none;
-}
-
-a.linked-link,
-a.insta-link,
-a.git-link {
-  margin: 0 auto;
-  text-align: center;
-  color: darkgray;
-  font-size: 14px;
-  margin: 12px;
-}
-
-a.linked-link:hover,
-a.insta-link:hover,
-a.git-link:hover {
-  color: black;
-}
-
 body {
   background-color: #fef3e9;
 }
@@ -64,6 +43,29 @@ body {
   color: black;
 }
 
+.linked-link,
+.insta-link,
+.git-link {
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+  color: darkgray;
+  font-size: 14px;
+  margin: 12px;
+}
+
+.linked-link:hover,
+.insta-link:hover,
+.git-link:hover {
+  color: black;
+}
+
+.linked-link:visited,
+.insta-link:visited,
+.git-link:visited {
+  text-decoration: none;
+}
+
 .hero {
   background-image: url(images/shelves.jpg);
   background-color: #cccccc;
@@ -98,14 +100,8 @@ body {
 .workation-text:hover,
 .weather-text:hover,
 .dictionary-text:hover {
-  color: black;
+  color: red;
   text-decoration: underline;
-}
-
-.workation-image:hover,
-.weather-image:hover,
-.dictionary-text:hover {
-  transform: rotateY(180deg);
 }
 
 #home:hover,
