@@ -122,6 +122,8 @@ body {
     margin: 12px auto;
     display: block;
   }
+  .workation-text,
+  .weather-text,
   .dictionary-text {
     font-size: 20px;
     text-align: center;
