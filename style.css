@@ -8,12 +8,12 @@ body {
   background-color: #fef3e9;
 }
 
-.btn {
+#abtn {
   border: 1px solid var(--button-color);
   border-radius: 40px;
   color: var(--button-text-color);
   background-color: var(--button-color);
-  font-size: 16px;
+  font-size: 16px !important;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   display: block;
@@ -21,7 +21,7 @@ body {
   padding: 16px 32px;
 }
 
-.btn:hover {
+#abtn:hover {
   border: 1px solid var(--button-text-color);
   color: var(--button-color);
   background-color: var(--button-text-color);
@@ -104,9 +104,14 @@ body {
   text-decoration: underline;
 }
 
+#home {
+  text-decoration: none;
+}
+
 #home:hover,
 #abtme:hover,
-#contactme:hover {
+#contactme:hover,
+#projects:hover {
   color: var(--title-color);
   font-weight: bolder;
 }
@@ -119,6 +124,10 @@ body {
     font-size: 24px;
   }
 
+  .coming-soon {
+    margin: 12px auto;
+    display: block;
+  }
   .dictionary-text {
     font-size: 20px;
     text-align: center;
@@ -133,9 +142,26 @@ body {
     height: 500px;
   }
 
+  .icons {
+    margin: 10px auto;
+  }
+
   .workation-text,
   .weather-text {
     font-size: 20px;
     text-align: center;
+    display: block;
+  }
+  #home:hover,
+  #abtme:hover,
+  #contactme:hover,
+  #projects:hover {
+    color: var(--title-color);
+    font-weight: bolder;
+  }
+
+  #wwprojects {
+    display: block;
+    margin-bottom: 10px;
   }
 }

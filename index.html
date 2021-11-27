@@ -45,8 +45,8 @@
       <button
         class="navbar-toggler active"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -55,23 +55,32 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav justify-content-end">
+        <div class="navbar-nav justify-content-end w-100 me-3">
           <a
-            class="nav-item nav-link active"
+            class="nav-item nav-link active me-3"
             href="index.html"
             title="Home"
             id="home"
             >Home</a
           >
           <a
-            class="nav-item nav-link active"
+            class="nav-item nav-link active me-3"
             href="aboutme.html"
             title="About me"
             id="abtme"
             >About me</a
           >
+
           <a
-            class="nav-item nav-link active"
+            class="nav-item nav-link active me-3"
+            href="projects.html"
+            title="Projects"
+            id="projects"
+            >Projects</a
+          >
+
+          <a
+            class="nav-item nav-link active me-3"
             href="aboutme.html#contactLink"
             title="Contact"
             id="contactme"
@@ -90,13 +99,13 @@
       </p>
     </div>
 
-    <button type="button" class="btn">ABOUT ME</button>
+    <button type="button" class="btn" id="abtn">ABOUT ME</button>
 
     <p class="current-projects">CURRENT PROJECTS</p>
 
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-6" id="wwprojects">
           <p>
             <a
               href="https://www.shecodes.io/workshops/shecodes-basics-899083fe-2a67-4904-8efb-ff3f6a24a7ed/projects/435355"
@@ -110,7 +119,7 @@
             src="images/workation.jpg"
             alt="workation-image"
             id="workation-image"
-            class="img-fluid"
+            class="img-fluid d-block mx-auto mx-sm-0"
             style="width: 80%"
           />
         </div>
@@ -129,7 +138,7 @@
             src="images/weatherapp.jpg"
             alt="weather-image"
             id="weather-image"
-            class="img-fluid"
+            class="img-fluid d-block mx-auto mx-sm-0"
             style="max-width: 80%"
           />
         </div>
@@ -145,16 +154,19 @@
             <a href="#" class="dictionary-text"> DICTIONARY PROJECT </a>
           </p>
 
-          <img
-            src="images/dictionary.jpg"
-            alt="dictionary-image"
-            id="dictionary-image"
-            class="img-fluid mb-4 d-sm-block"
-            style="height: 300px; width: 650px; max-width: 80%"
-          />
+          <div>
+            <img
+              src="images/dictionary.jpg"
+              alt="dictionary-image"
+              id="dictionary-image"
+              class="img-fluid mb-4 d-block mx-auto mx-sm-0"
+              style="height: 300px; width: 650px; max-width: 80%"
+            />
+          </div>
         </div>
       </div>
     </div>
+
     <div class="icons">
       <span>
         <a href="http://" class="linked-link">
