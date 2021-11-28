@@ -50,13 +50,14 @@ body {
   position: relative;
   margin: 0 2px;
 }
-
 .hello {
-  padding: 420px 45px;
   line-height: 1.4;
   color: var(--title-color);
   font-size: 36px;
   font-family: "Nunito", sans-serif;
+  position: absolute;
+  left: 45px;
+  bottom: 45px;
 }
 
 .icons {
