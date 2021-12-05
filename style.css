@@ -31,8 +31,10 @@ body {
 }
 
 .bg-light,
-.navbar-light {
-  background: #e4f5f2ed !important;
+.navbar-light,
+.navbar-expand-lg,
+.navbar {
+  background-color: #eedbd4 !important;
 }
 
 .contact-section {
@@ -61,13 +63,15 @@ body {
 
 .hero {
   background-image: url(images/shelves.jpg);
-  background-color: #cccccc;
   height: 600px;
+  background-color: #eedbd4;
   background-position: center;
+
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+  border: transparent #eedbd4;
   position: relative;
-  margin: 0 2px;
+  margin: 0 auto;
 }
 
 .hello {
