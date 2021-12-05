@@ -64,12 +64,10 @@ body {
 .hero {
   background-image: url(images/shelves.jpg);
   height: 600px;
-  background-color: #eedbd4;
   background-position: center;
-
   background-repeat: no-repeat;
-  background-size: auto;
-  border: transparent #eedbd4;
+  background-size: cover;
+
   position: relative;
   margin: 0 auto;
 }
