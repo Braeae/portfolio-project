@@ -30,6 +30,11 @@ body {
   font-family: var(--text-font-family);
 }
 
+.bg-light,
+.navbar-light {
+  background: #e4f5f2ed !important;
+}
+
 .contact-section {
   background: var(--button-color);
   margin: 420px auto;
@@ -141,12 +146,6 @@ body {
   text-align: center;
 }
 
-.bg-light,
-.navbar-light {
-  background: yellow;
-  color: yellowgreen;
-}
-
 .workation-text,
 .weather-text,
 .dictionary-text {
@@ -215,8 +214,6 @@ body {
   .coming-soon {
     margin: 12px auto;
     display: block;
-  }
-  .content h1 {
   }
 
   .dictionary-text,
