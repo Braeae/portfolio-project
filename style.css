@@ -38,6 +38,7 @@ body {
 }
 
 .contact-text h4 {
+  text-decoration: none;
   color: var(--button-text-color);
   font-size: 24px;
   font-family: var(--text-font-family);
@@ -75,8 +76,8 @@ body {
   position: absolute;
   left: 45px;
   bottom: 45px;
-  background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%),
-    linear-gradient(110deg, #c5e7d7 34%, #88d8b0 34%);
+  background: linear-gradient(110deg, #a58d2d 33%, rgba(0, 0, 0, 0) 33%),
+    linear-gradient(110deg, #c6f0dc 34%, #2a8173 34%);
   background-size: 400%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -142,7 +143,7 @@ body {
 
 .video {
   border-radius: 12px;
-  padding: 40px;
+  padding-bottom: 40px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -181,6 +182,17 @@ body {
   border: 1px solid var(--button-text-color);
   color: var(--button-color);
   background-color: var(--button-text-color);
+}
+
+#email-btn {
+  border: 1px solid var(--button-color);
+  border-radius: 40px;
+  color: var(--button-text-color);
+  background-color: var(--button-color);
+  font-size: 16px !important;
+  font-family: var(--button-font-family);
+  text-align: center;
+  display: block;
 }
 
 #home {
@@ -236,6 +248,9 @@ body {
 
   .icons {
     margin: 10px auto;
+  }
+  .video {
+    display: none;
   }
 
   #wwprojects {
