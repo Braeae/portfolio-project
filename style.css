@@ -10,10 +10,6 @@ body {
   background-color: #fef3e9;
 }
 
-#video {
-  margin: 0 auto;
-}
-
 .about-section {
   padding: 100px 20px;
 }
@@ -39,6 +35,12 @@ body {
 .navbar-expand-lg,
 .navbar {
   background-color: #eedbd4 !important;
+}
+
+.contact-text h4 {
+  color: var(--button-text-color);
+  font-size: 24px;
+  font-family: var(--text-font-family);
 }
 
 .current-projects,
@@ -135,6 +137,14 @@ body {
 
 .project-section {
   margin: 60px;
+  text-align: center;
+}
+
+.video {
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
 }
 
