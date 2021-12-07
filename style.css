@@ -37,8 +37,14 @@ body {
   background-color: #eedbd4 !important;
 }
 
-.contact-section {
+.body-flex {
+  min-height: 100vh;
+  display: flex;
   flex-direction: column;
+}
+
+.contact-section {
+  flex: 1;
 }
 
 .contact-text h4 {
@@ -47,7 +53,24 @@ body {
   font-size: 24px;
   font-family: var(--text-font-family);
 }
+.content a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: var(--text-font-family);
+  color: var(--title-color);
+}
+.content a:hover {
+  text-decoration: underline;
+}
 
+.content h4 {
+  text-decoration: none;
+  color: var(--button-text-color);
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: var(--text-font-family);
+}
 .current-projects,
 .coming-soon {
   color: var(--title-color);
@@ -192,8 +215,8 @@ body {
   font-family: var(--button-font-family);
   text-align: center;
   display: block;
-  margin: 60px auto;
-  padding: 16px 32px;
+  margin: 60px 640px;
+  padding: 10px 16px;
 }
 
 #abtn:hover {
@@ -278,6 +301,10 @@ body {
   }
   .video {
     display: none;
+  }
+
+  #abtn {
+    margin: 60px 130px;
   }
 
   #wwprojects {
