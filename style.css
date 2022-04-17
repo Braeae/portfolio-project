@@ -131,6 +131,10 @@ body {
   -moz-animation: Gradient 5s ease infinite;
 }
 
+.project-name:hover {
+  font-weight: 500;
+}
+
 @keyframes Gradient {
   0% {
     background-position: 30% 50%;
